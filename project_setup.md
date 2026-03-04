@@ -1,4 +1,4 @@
-🐍 Ultimate Python Project Setup Guide
+# 🐍 Ultimate Python Project Setup Guide
 Is guide mein step-by-step commands hain ek clean aur professional environment set karne ke liye.
 🏗️ Step 1: Project Folder & Git
 Sabse pehle folder banayein aur Git initialize karein taake version control shuru ho sake.
@@ -16,9 +16,7 @@ python -m venv .venv
 # Activate (Windows)
 .venv\Scripts\activate
 
-# Activate (Mac/Linux)
-# source .venv/bin/activate
-🚫 Step 3: Create .gitignore
+# 🚫 Step 3: Create .gitignore
 Ye file un cheezon ko rokti hai jo GitHub par nahi jani chahiye. Ek file banayein .gitignore ke naam se:
 # Environments
 .venv/
@@ -86,7 +84,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY . .
 CMD ["python", "main.py"]
-💡 Daily Workflow Tips:
+# 💡 Daily Workflow Tips:
 Naya package? pip install x -> pip freeze > requirements.txt
 
 Environment activate nahi? Hamesha .venv\Scripts\activate check karein.
