@@ -70,13 +70,27 @@ if __name__ == "__main__":
 Apna setup cloud par save karein.
 # Add and Commit
 git add .
-git commit -m "Initial professional setup"
-
+git commit -m "feat(api): add user profile upload"
+# Commit Types
+feat=Naya feature ya functionality add karna
+feat(api): add user profile upload
+fix=Kisi bug ya error ko theek karna
+fix(api): error in user profile upload
+refactor=Code behtar banana (na feature add ho na bug fix)
+refactor(api): refactor user profile upload
+chore=Routine tasks (maintenance, .gitignore update)
+chore(api): .gitignore update
+style=Code ko style ko theek karna
+style(api): Code ko style ko theek karna
+build=Build system ya external dependencies (pip, npm)
+build(api): Build or deployment related changes
+test=Testing related changes
+test(api): Test related changes
 # Push (Change YOUR_USERNAME and REPO_NAME)
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
 git push -u origin main
-🐳 Step 8: Dockerization (Optional)
+# 🐳 Step 8: Dockerization (Optional)
 Agar project ko containerize karna hai, to Dockerfile banayein:
 FROM python:3.11-slim
 WORKDIR /app
