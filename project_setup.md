@@ -10,12 +10,13 @@ cd my_awesome_project
 git init
 ❄️ Step 2: Virtual Environment (VENV)
 System-wide packages se bachne ke liye isolation zaroori hai.
-# Create Environment
+# Create Environment with latest version of Python installed in your system
 python -m venv .venv
-
+# Python specific environment
+py --list
+py -3.10 -m venv .venv
 # Activate (Windows)
 .venv\Scripts\activate
-
 # 🚫 Step 3: Create .gitignore
 Ye file un cheezon ko rokti hai jo GitHub par nahi jani chahiye. Ek file banayein .gitignore ke naam se:
 # Environments
